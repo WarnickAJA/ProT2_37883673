@@ -36,10 +36,10 @@
                                 <a class="btn btn-success" href="registrarse">¿No estás registrado? Regístrate aquí</a>
                             </div>
                         </div>
+
+                    </form>
                 </div>
-                </form>
             </div>
         </div>
     </div>
-</div>
 </div>
