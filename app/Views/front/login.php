@@ -14,14 +14,14 @@
                             <label for="identificacion" class="col-sm-4 col-form-label">Usuario o Email</label>
                             <div class="col-sm-8">
                                 <input class="form-control" id="identificacion" type="text"
-                                    placeholder="Usuario o Email" required/>
+                                    placeholder="Usuario o Email" required />
                             </div>
                         </div>
                         <div class="mb-3 row">
                             <label for="contraseña" class="col-sm-4 col-form-label">Contraseña</label>
                             <div class="col-sm-8">
-                                <input class="form-control" id="contraseña" type="password"
-                                    placeholder="Tu Contraseña" required />
+                                <input class="form-control" id="contraseña" type="password" placeholder="Tu Contraseña"
+                                    required />
                             </div>
                         </div>
                         <div class="mt-4 mb-0">
@@ -31,15 +31,15 @@
                             <div class="d-grid mb-3">
                                 <a class="btn btn-info" href="#">¿Olvidaste tu Contraseña?</a>
                             </div>
-                            
+
                             <div class="d-grid">
                                 <a class="btn btn-success" href="registrarse">¿No estás registrado? Regístrate aquí</a>
                             </div>
                         </div>
-                        </div>
-                    </form>
                 </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 </div>
