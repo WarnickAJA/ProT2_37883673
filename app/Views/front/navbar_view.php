@@ -1,8 +1,8 @@
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg bg-body-success">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand me-auto barra" href="<?php echo base_url('principal') ?>">
+            <a class="navbar-brand me-auto" href="<?php echo base_url('principal') ?>">
                 <img src="<?php echo base_url('assets/img/logoreloj1.jpg') ?>" alt="logo" width="75" height="30"
                     class="img-fluid">
 
@@ -26,6 +26,26 @@
                 <li class="nav-item">
                     <a class="nav-link" href="login">Login</a>
                 </li>
+
+                <!-- inicio desplegable pedido por la consiga-->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Formas de Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Email</a></li>
+                        <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Llamada</a></li>
+                    </ul>
+
+                <!--fin desplegable-->
+
+
 
                 <!--
                 <li class="nav-item">
@@ -53,8 +73,8 @@
                 </li>-->
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form> 
             
         </div>

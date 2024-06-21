@@ -107,8 +107,8 @@ img.miimg {
 }
 
 img.miicono{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
 
 /* Super titulo */
@@ -117,7 +117,7 @@ img.miicono{
     text-align: center;
     font-family: Comic Sans MS;
     font-weight:bold;
-    font-size: 80px;
+    font-size: clamp(3rem, 5vw, 80px); /* Usa clamp para un tamaño de fuente flexible */
     color: #EBD758;
     text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
@@ -129,7 +129,7 @@ img.miicono{
 
 p.supertitulo{
     text-justify: auto;
-    font-size: 35px;
+    font-size: clamp(3rem, 5vw, 35px);;
     text-align: center;
     background-color: #138417;
     padding: 10px;

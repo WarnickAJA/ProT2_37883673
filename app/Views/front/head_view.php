@@ -10,6 +10,8 @@
 </head>
 
 <body>
-<header>
-<h1 class="supertitulo">Relojería Time Lord</h1>
-</header>
+    <header>
+        <div class="container fs-1">
+            <h1 class="supertitulo">Relojería Time Lord</h1>
+        </div>
+    </header>
