@@ -43,11 +43,11 @@
                         <li><a class="dropdown-item" href="#">Llamada</a></li>
                     </ul>
 
-                <!--fin desplegable-->
+                    <!--fin desplegable-->
 
 
 
-                <!--
+                    <!--
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -71,12 +71,17 @@
                 <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </li>-->
+
+
+
+                    <!-- Buscador -->
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form> 
-            
+            </form>
+            <!-- Fin Buscador -->
+
         </div>
     </div>
 </nav>

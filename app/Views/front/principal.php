@@ -1,4 +1,3 @@
-
 <section>
   <div class="centrado">
     <p class="texto">
@@ -16,9 +15,7 @@
 
 
 
-<!-- <script src="assets/js/bootstrap.bundle.min.js"></script>  -->
-
-<!--carru-->
+<!--Carousel-->
 
 
 <div class="container-fluid">
@@ -59,4 +56,4 @@
   </div>
 </div>
 
-<!--fin carru-->
+<!--fin carousel-->

@@ -52,7 +52,7 @@
 
 
 
-<!-- descripciones
+<!-- descripciones generada por IA
  Perfil 1: Gerente de Relojería
 Nombre: Carlos Martínez
 Edad: 45 años
