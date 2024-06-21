@@ -11,17 +11,17 @@
                 <div class="card-body">
                     <form>
                         <div class="mb-3 row">
-                            <label for="correo" class="col-sm-4 col-form-label">Correo Electrónico</label>
+                            <label for="identificacion" class="col-sm-4 col-form-label">Usuario o Email</label>
                             <div class="col-sm-8">
-                                <input class="form-control" id="correo" type="email"
-                                    placeholder="ejemplo@dominio.com" />
+                                <input class="form-control" id="identificacion" type="text"
+                                    placeholder="Usuario o Email" required/>
                             </div>
                         </div>
                         <div class="mb-3 row">
                             <label for="contraseña" class="col-sm-4 col-form-label">Contraseña</label>
                             <div class="col-sm-8">
                                 <input class="form-control" id="contraseña" type="password"
-                                    placeholder="Tu Contraseña" />
+                                    placeholder="Tu Contraseña" required />
                             </div>
                         </div>
                         <div class="mt-4 mb-0">
